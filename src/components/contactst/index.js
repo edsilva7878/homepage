@@ -31,19 +31,19 @@ export default function Contacts(){
             <div className='containerContacts'>
                 <div className='cardContacts1'>
                     <div className='individualCardContacts'>
-                    <img src={Whats} className='whats' alt='whats'/>
+                    <img src={Whats} className='img' alt='whats'/>
                         <p>55 (11) 99250-6743 </p>
                     </div>
                     <div className='individualCardContacts'>
-                    <img src={Email} className='email' alt='email'/>
+                    <img src={Email} className='img' alt='email'/>
                         <p>edsilva7878@gmail.com</p>
                     </div>
                     <div className='individualCardContacts'>
-                    <img src={Linkedin} className='linkedin' alt='linkedin'/>
+                    <img src={Linkedin} className='img' alt='linkedin'/>
                         <p>edsilva7878</p>
                     </div>
                     <div className='individualCardContacts'>
-                    <img src={Git} className='git' alt='git'/>
+                    <img src={Git} className='img' alt='git'/>
                         <p>edsilva7878</p>
                     </div>
               </div>
