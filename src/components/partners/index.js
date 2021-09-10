@@ -32,25 +32,25 @@ export default function Partners(){
             <div className='containerPartners'>
                 <div className='cardPartners1'>
                 <div className='individualCardPartners'>
-                    <a href="http://mendes10segurosesaude.com.br/" target="_blank">
+                    <a href="http://mendes10segurosesaude.com.br/" target="_blank" rel="noreferrer">
                         <img src={Mendes} className='img' alt='whats'/>
                     </a>
                         <p className='txt'> INSURANCE BROKER</p>
                     </div>
                     <div className='individualCardPartners'>
-                    <a href="https://next-dev-danilo.vercel.app/" target="_blank">
+                    <a href="https://next-dev-danilo.vercel.app/" target="_blank" rel="noreferrer">
                         <img src={Nascoliver} className='img' alt='tel'/>
                     </a>
                         <p className='txt'>FRONTEND DEVELOPER</p>
                     </div>
                     <div className='individualCardPartners'>
-                    <a href="https://jaine665.wixsite.com/jainesilva" target="_blank">
+                    <a href="https://jaine665.wixsite.com/jainesilva" target="_blank" rel="noreferrer">
                     <img src={Jaine} className='img' alt='email'/>
                     </a>
                         <p className='txt'>VISUAL COMMUNICATION</p>
                     </div>
                     <div className='individualCardPartners'>
-                    <a href="https://ailsontenorio.netlify.app/" target="_blank">
+                    <a href="https://ailsontenorio.netlify.app/" target="_blank" rel="noreferrer">
                         <img src={Ailson} className='img' alt='linkedin'/>
                     </a>
                         <p className='txt'>LEGAL ADVICE</p>
