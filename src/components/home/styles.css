@@ -1,0 +1,121 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.fundoHome{
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.menuHome{
+    position: fixed;
+    top: 0vh;
+    background-color: WHITE;
+    width: 100vw;
+    height: 10vh;
+    font-family: Pristina;
+    font-size: 20pt;
+    color:  rgb(243, 84, 10);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 1px 5px rgb(243, 84, 10);
+
+    
+}
+.tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 3.5vw;
+}
+.buttonHome{
+    border: solid;
+    border-color: transparent;
+    background-color: transparent;
+    font-family: Felix Titling;
+    width: 10vw;
+    height: 9.3vh;
+    color:  rgb(243, 84, 10);
+    font-size: 12pt;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonHome:hover{
+    background-color:rgb(243, 84, 10);
+    color: white;
+}
+
+.textHome{
+    position: relative;
+    width: 100vw;
+    font-family: Felix Titling;
+    font-size: 50pt;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerHome{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardHome1{
+    position: relative;
+    margin-top: 15vh;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.cardHome2{
+    position: relative;
+    margin-top: 15vh;
+    background-color: rgb(243, 84, 10);
+    transition: all 1s;
+    width: 100vw;
+    height: 10vh;
+    text-align: justify;
+    color: WHITE;
+    font-family:Felix Titling;
+    font-size: 10pt;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 1px 5px rgb(255, 255, 255);
+
+}
+.footerHome{
+    position: fixed;
+    bottom: 0vh;
+    width: 100vw;
+    height: 5vh;
+    font-family:Pristina;
+    font-size: 8pt;
+    color: rgba(243, 84, 10, 0.863);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+
+    
+}
+

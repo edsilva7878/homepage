@@ -1,0 +1,133 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.fundoSkills{
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.menuSkills{
+    position: fixed;
+    top: 0vh;
+    background-color: WHITE;
+    width: 100vw;
+    height: 10vh;
+    font-family: Pristina;
+    font-size: 20pt;
+    color: rgb(255, 174, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 1px 5px rgb(255, 174, 0);
+    
+}
+.buttonSkills{
+    border: solid;
+    border-color: transparent;
+    background-color: transparent;
+    font-family: Felix Titling;
+    width: 10vw;
+    height: 9.3vh;
+    color:  rgb(255, 174, 0);
+    font-size: 12pt;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonSkills:hover{
+    background-color:rgb(255, 174, 0);
+    color: white;
+}
+.textSkills{
+    position: relative;
+    width: 100vw;
+    font-family: Felix Titling;
+    font-size: 50pt;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerSkills{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardSkills1{
+    position: relative;
+    margin-top: 15vh;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.cardSkills2{
+    position: relative;
+    margin-top: 15vh;
+    background-color:   rgb(255, 174, 0);
+    transition: all 1s;
+    width: 100vw;
+    height: 10vh;
+    text-align: justify;
+    color: WHITE;
+    font-family:Felix Titling;
+    font-size: 10pt;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 1px 5px white;
+
+    
+}
+.img{
+    box-shadow: 0px 0px 1px 2px white;
+    border-radius: 5px;
+}
+.individualCardSkills{
+width: 12vw;
+height: 38vh;
+font-family: Felix Titling;
+font-size: 6pt;
+background-color: white;
+color:rgb(255, 174, 0);
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+border-radius: 5px;
+box-shadow: 0px 0px 1px 2px rgb(255, 174, 0);
+
+}
+.footerSkills{
+    position: fixed;
+    bottom: 0vh;
+    width: 100vw;
+    height: 5vh;
+    font-family:Pristina;
+    font-size: 8pt;
+    color:  rgb(255, 174, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    
+}
+
